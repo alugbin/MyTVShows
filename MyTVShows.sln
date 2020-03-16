@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTVShows", "MyTVShows\MyTVShows.csproj", "{32C665C3-CA2E-47A0-BDA7-4A26A01EBE12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTVShows.API", "MyTVShows\MyTVShows.API.csproj", "{32C665C3-CA2E-47A0-BDA7-4A26A01EBE12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTVShows.DataAccess", "MyTVShows.Data\MyTVShows.DataAccess.csproj", "{54641D5A-3151-4868-A7A7-6987A056E46F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTvShows.Entites", "MyTvShows.Entites\MyTvShows.Entites.csproj", "{73D3E802-708D-4512-A791-EFEE7D2E86E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{32C665C3-CA2E-47A0-BDA7-4A26A01EBE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C665C3-CA2E-47A0-BDA7-4A26A01EBE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32C665C3-CA2E-47A0-BDA7-4A26A01EBE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54641D5A-3151-4868-A7A7-6987A056E46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54641D5A-3151-4868-A7A7-6987A056E46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54641D5A-3151-4868-A7A7-6987A056E46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54641D5A-3151-4868-A7A7-6987A056E46F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D3E802-708D-4512-A791-EFEE7D2E86E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D3E802-708D-4512-A791-EFEE7D2E86E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D3E802-708D-4512-A791-EFEE7D2E86E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D3E802-708D-4512-A791-EFEE7D2E86E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
